@@ -1,0 +1,56 @@
+---
+title: "eds-212-comp-session-3b"
+author: "Juliet"
+date: "8/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# TRUE tells R to print the code when you knit
+```
+
+```{r}
+# Create a vector
+vec_a <- c(4, 5)
+
+```
+
+## Another code chunk
+```{r, echo = FALSE}
+vec_b <- c(-3,10)
+# If you include echo = FALSE in the header of this chunk, only this chunk will not appear when you knit
+```
+
+## Vector Addition
+```{r}
+vec_c <- vec_a + vec_b
+
+```
+
+## Vector Subtraction
+```{r}
+vec_d <- vec_b - vec_a
+```
+
+## Vector Scalar Multiplier
+```{r}
+# what is vec_e if it is 4 * vec_b
+vec_e <- 4 * vec_b
+```
+
+## Dot Product
+```{r}
+vec_a %*% vec_b
+# This creates a matrix with only 1 element
+```
+
+
+
+
+
+
+
+
+
+
